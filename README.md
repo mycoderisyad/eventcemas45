@@ -24,3 +24,13 @@ php artisan migrate
 php artisan db:seed --class=DemoUserSeeder
 php artisan serve
 ```
+
+## Screenshots
+
+Profile dropdown (admin):
+
+![Admin profile dropdown](screenshots/SS1.png)
+
+Profile dropdown (user):
+
+![User profile dropdown](screenshots/SS2.png)
