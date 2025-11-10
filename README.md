@@ -1,0 +1,26 @@
+
+# EventCemas45
+
+Tech stack
+- PHP (Laravel)
+- Blade templating
+- Bootstrap 5 (Mantis template)
+- SQLite (development)
+
+Bootstrap template source
+- Template used: Mantis Dashboard
+- Source: https://mantisdashboard.com/
+
+Demo credentials
+- Admin
+	- Email: admin@eventcemas.com
+	- Password: admin123
+- User
+	- Email: user@eventcemas.com
+	- Password: user123
+
+```powershell
+php artisan migrate
+php artisan db:seed --class=DemoUserSeeder
+php artisan serve
+```
