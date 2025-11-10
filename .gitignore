@@ -24,3 +24,4 @@ Homestead.yaml
 Thumbs.db
 /resources/template-source/*
 !/resources/template-source/README.md
+*.lock
