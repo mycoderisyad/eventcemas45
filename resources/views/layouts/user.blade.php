@@ -297,12 +297,6 @@
                 <div class="col my-1">
                     <p class="m-0">EventCemas &copy; {{ date('Y') }}</p>
                 </div>
-                <div class="col-auto my-1">
-                    <ul class="list-inline footer-link mb-0">
-                        <li class="list-inline-item"><a href="{{ url('/') }}">Home</a></li>
-                        <li class="list-inline-item"><a href="{{ route('user.events') }}">Events</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>
