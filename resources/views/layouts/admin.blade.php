@@ -240,13 +240,6 @@
                                         <i class="ti ti-file-analytics"></i>
                                         <span>Reports</span>
                                     </a>
-                                    <form action="{{ route('logout') }}" method="POST" class="d-inline">
-                                        @csrf
-                                        <button type="submit" class="dropdown-item border-0 bg-transparent text-start w-100" style="cursor: pointer;">
-                                            <i class="ti ti-power"></i>
-                                            <span>Logout</span>
-                                        </button>
-                                    </form>
                                 </div>
                                 <div class="tab-pane fade" id="drp-tab-2" role="tabpanel" aria-labelledby="drp-t2" tabindex="0">
                                     <a href="#!" class="dropdown-item">
